@@ -19,16 +19,19 @@ A Node.js script to migrate data from MariaDB to PostgreSQL using transactions a
 
 ### 1️⃣ Clone the repository
 ```sh
-git clone https://github.com/yourusername/mariadb-to-postgres-migration.git
+git clone https://github.com/hammadahmedpk/mariadb-to-postgres-migration.git
 cd mariadb-to-postgres-migration
 ```
 
 ### 2️⃣ Install dependencies
+```sh
 npm install mysql2 pg config
+```
 
 3️⃣ Configure database connections
 Modify config/default.json with your database credentials:
 
+```sh
 {
   "dbConfiguration": {
     "host": "mariadb-host",
@@ -45,7 +48,9 @@ Modify config/default.json with your database credentials:
     "port": 5432
   }
 }
-
+```
 
 4️⃣ Run the script
+```sh
 node mariadb-to-postgres-migration.js
+```
