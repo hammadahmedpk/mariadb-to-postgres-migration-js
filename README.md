@@ -28,7 +28,7 @@ cd mariadb-to-postgres-migration
 npm install mysql2 pg config
 ```
 
-3️⃣ Configure database connections
+### 3️⃣ Configure database connections
 Modify config/default.json with your database credentials:
 
 ```sh
@@ -50,7 +50,7 @@ Modify config/default.json with your database credentials:
 }
 ```
 
-4️⃣ Run the script
+### 4️⃣ Run the script
 ```sh
 node mariadb-to-postgres-migration.js
 ```
